@@ -123,6 +123,8 @@ header {
   margin-right: 35px;
   font-size: 16px;
   margin-bottom: 20px;
+  position: relative;
+  top: -40px;
 }
 
 .header-nav a {
@@ -150,11 +152,11 @@ header {
 }
 
 #about {
-  height: 300px;
+  height: 250px;
   background-color: black;
-  position: absolute;
   padding: 144px;
-  background: url(../mission-img.jpg) no-repeat;
+  position: relative;
+  z-index: 1;
   background-size: 30%;
 }
 
@@ -169,21 +171,202 @@ header {
 #about p {
   color: #cccccc;
   font-family: 'Courier New', Courier, monospace;
-  
+  position: relative;
+  z-index: 3;
+  top: -380px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin-top: 10px;
+  margin-left: 534px;
+  position: relative;
+  z-index: 2;
+}
+
+.contents1  {
+  color: #ffff;
+  background-color: white;
+  height: 100px;
+  position: relative;
 }
 
 #service {
   height: 1000px;
   background-color: rgb(189, 187, 184);
-  background-size: cover;
-  
-  
+  background-size: cover;  
 }
 
 .section-title1 {
   color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.section-title1 p {
+.text1 {
   color: #000000;
+  margin-top: 30px;
+  width: 500px;
+  height: 250px;
+  border: solid 3px #ffffff;
+  background-color: #ffffff;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.servicetext1 {
+  font-size: 19px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-left: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.servicetext2 {
+  margin-bottom: 15px;
+  margin-left: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.servicetext3 {
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.text2 {
+   color: #000000;
+  margin-top: 30px;
+  width: 500px;
+  height: 250px;
+  border: solid 3px #ffffff;
+  background-color: #ffffff;
+  position: relative;
+  top: -110px;
+  left: 500px;
+  position: relative;
+  z-index: 2;
+}
+
+.img1 {
+  position: relative;
+  right: 534px;
+  top: -450px;
+  width: 45%;
+  height: 35%;
+  z-index: 1;
+}
+
+.img2 {
+  position: relative;
+  right: -94px;
+  top: -270px;
+  width: 45%;
+  height: 35%;
+  z-index: 1;
+}
+
+.img3 {
+  position: relative;
+  right: 450px;
+  width: 40%;
+  height: 140px;
+  top: -5px;
+  z-index: 1;
+}
+
+#company {
+  position: relative;
+  color: #f2f2f2;
+  z-index: 2;
+}
+
+.section-title2 {
+  position: relative;
+  font-size: 30px;
+  left: 270px;
+  top: 100px;
+}
+
+.companytext {
+  position: relative;
+  left: 310px;
+  top: 100px;
+}
+
+.img4 {
+  position: relative;
+  right: -130px;
+  width: 40%;
+  height: 141px;
+  top: -205px;
+  z-index: 1;
+}
+
+.section-title3 {
+  position: relative;
+  font-size: 30px;
+  left: 880px;
+  top: -100px;
+}
+
+.recruittext {
+   position: relative;
+  left: 895px;
+  top: -100px;
+}
+
+#recruit {
+  position: relative;
+  color: #f2f2f2;
+  z-index: 2;
+}
+
+#FAQ {
+  position: relative;
+  color: #ffffff;
+  background-color: #000;
+  height: 70px;
+  width: 80%;
+  top: -100px;
+  left: 120px;
+}
+
+.section-title4 {
+  position: relative;
+  font-size: 30px;
+  top: 20px;
+}
+
+.faqtext {
+  position: relative;
+  text-align: center;
+}
+
+.img5 {
+  position: relative;
+  width: 1270px;
+  height: 300px;
+  right: 540px;
+  top: -90px;
+  z-index: 1;
+}
+
+#contact {
+  position: relative;
+  color: #ffffff;
+  top: 100px;
+  z-index: 2;
+}
+
+.section-title5 {
+  font-size: 30px;
 }
