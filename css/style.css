@@ -133,7 +133,7 @@ header {
 }
 
 #eyecatch {
-  height: 600px;
+  height: 540px;
   background: url(../eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -141,18 +141,51 @@ header {
  
 }
 
-#eyecatch p {
+.eyecatchp {
   font-size: 40px;
-  color: #cccccc;
-  position: absolute;
+  color: #ffffff;
+  padding: 300px;
   top: 80%;
   left: 10%;
   font-style: oblique;
   font-family: 'Times New Roman', Times, serif;
 }
 
+.news2 {
+  
+  
+  
+}
+
+.newstext {
+  position: relative;
+  background-color: #f2f2f2;
+  color: #000;
+  
+  width: 400px;
+  height: 70px;
+  top: 480px;
+  left: 700px;
+
+}
+
+.newscontent {
+  position: relative;
+  background-color: #000;
+  color: #f2f2f2;
+  width: 70px;
+  height: 70px;
+  top: 400px;
+  left: 800px;
+  
+}
+
+.news1 {
+  margin-bottom: 5px;
+}
+
 #about {
-  height: 250px;
+  height: 280px;
   background-color: black;
   padding: 144px;
   position: relative;
@@ -173,11 +206,11 @@ header {
   font-family: 'Courier New', Courier, monospace;
   position: relative;
   z-index: 3;
-  top: -380px;
+  top: -300px;
 }
 
 img {
-  width: 60%;
+  width: 50%;
   height: 60%;
   margin-top: 10px;
   margin-left: 534px;
@@ -263,71 +296,63 @@ img {
   width: 45%;
   height: 35%;
   z-index: 1;
+  max-width: 100%;
 }
 
 .img2 {
   position: relative;
-  right: -94px;
+  left: 1px;
   top: -270px;
   width: 45%;
   height: 35%;
   z-index: 1;
-}
-
-.img3 {
-  position: relative;
-  right: 450px;
-  width: 40%;
-  height: 140px;
-  top: -5px;
-  z-index: 1;
+  max-width: 100%;
 }
 
 #company {
-  position: relative;
-  color: #f2f2f2;
-  z-index: 2;
+  background: url(../company.jpeg);
+  width: 50%;
+  height: 80px;
 }
 
+
 .section-title2 {
-  position: relative;
+  color: #ffffff;
+  padding: 10px 280px;
   font-size: 30px;
-  left: 270px;
+  
   top: 100px;
+  z-index: 2;
 }
 
 .companytext {
   position: relative;
-  left: 310px;
-  top: 100px;
-}
-
-.img4 {
-  position: relative;
-  right: -130px;
-  width: 40%;
-  height: 141px;
-  top: -205px;
-  z-index: 1;
-}
-
-.section-title3 {
-  position: relative;
-  font-size: 30px;
-  left: 880px;
-  top: -100px;
-}
-
-.recruittext {
-   position: relative;
-  left: 895px;
-  top: -100px;
+  color: #f2f2f2;
+  left: 300px;
+  z-index: 2;
 }
 
 #recruit {
   position: relative;
+  background: url(../recruit.jpg) ;
+  width: 50%;
+  height: 80px;
+  right: -630PX;
+  top: -80px;
+}
+
+.section-title3 {
+  
+  font-size: 30px;
+  padding: 10px 280px;
   color: #f2f2f2;
-  z-index: 2;
+}
+
+
+
+.recruittext {
+  margin-left:300px;
+  color: #f2f2f2;
 }
 
 #FAQ {
@@ -336,14 +361,14 @@ img {
   background-color: #000;
   height: 70px;
   width: 80%;
-  top: -100px;
+  top: -30px;
   left: 120px;
 }
 
 .section-title4 {
   position: relative;
   font-size: 30px;
-  top: 20px;
+  top: 30px;
 }
 
 .faqtext {
@@ -351,22 +376,79 @@ img {
   text-align: center;
 }
 
-.img5 {
-  position: relative;
-  width: 1270px;
-  height: 300px;
-  right: 540px;
-  top: -90px;
-  z-index: 1;
+#contact {
+  background: url(../contact-bg.jpg);
+  width: auto;
+  height: 400px;
 }
 
 #contact {
   position: relative;
   color: #ffffff;
   top: 100px;
-  z-index: 2;
+  
 }
 
 .section-title5 {
+  position: relative;
   font-size: 30px;
+  text-align: center;
+  top: 60px;
+} 
+
+.contact1 {
+  position: relative;
+  text-align: center;
+  top: 70px;
+}
+
+.contact2 {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  top: 90px;
+}
+
+.contact3 {
+  position: relative;
+  text-align: center;
+  top: 110px;
+}
+
+.footer {
+  position: relative;
+  height: 130px;
+  background: #000;
+  top: 30px;
+}
+
+.footer-logo {
+   font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #ffffff;
+  line-height: 70px;
+}
+
+.footer-nav {
+  text-align: right;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+  top: -40px;
+}
+
+.footer-nav a {
+   color: #f2f2f2;
+  text-decoration: none;
+}
+
+.footer-word {
+  color: #f2f2f2;
+  text-align: center;
 }
