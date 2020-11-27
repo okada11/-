@@ -144,28 +144,22 @@ header {
 .eyecatchp {
   font-size: 40px;
   color: #ffffff;
-  padding: 300px;
+  padding: 250px;
   top: 80%;
   left: 10%;
   font-style: oblique;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.news2 {
-  
-  
-  
-}
 
 .newstext {
   position: relative;
   background-color: #f2f2f2;
   color: #000;
-  
   width: 400px;
-  height: 70px;
+  height: 78px;
   top: 480px;
-  left: 700px;
+  left: 760px;
 
 }
 
@@ -173,11 +167,11 @@ header {
   position: relative;
   background-color: #000;
   color: #f2f2f2;
-  width: 70px;
-  height: 70px;
+  padding: 30px 30px;
   top: 400px;
-  left: 800px;
-  
+  left: 1160px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .news1 {
@@ -208,6 +202,21 @@ header {
   z-index: 3;
   top: -300px;
 }
+
+.link {
+  position: relative;
+  padding: 5px 20px;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  z-index: 3;
+  top: -200px;
+}
+
+/*.link:hover {
+  color: #f2f2f2;
+  background-color: #ff9;
+}*/
 
 img {
   width: 50%;
@@ -273,6 +282,32 @@ img {
   margin-right: 40px;
   position: relative;
   z-index: 2;
+}
+
+.link2 {
+  position: relative;
+  padding: 5px 20px;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  z-index: 3;
+  top: -200px;
+  border: 2px #000 solid;
+  top: 30px;
+  left: 320px;
+}
+
+.link3 {
+  position: relative;
+  padding: 5px 20px;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  z-index: 3;
+  top: -200px;
+  border: 2px #000 solid;
+  top: 30px;
+  left: 320px;
 }
 
 .text2 {
@@ -413,6 +448,19 @@ img {
   position: relative;
   text-align: center;
   top: 110px;
+}
+
+.link4 {
+   position: relative;
+  padding: 5px 20px;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  z-index: 3;
+  top: -200px;
+  border: 2px rgb(255, 255, 255) solid;
+  top: 150px;
+  left: 560px;
 }
 
 .footer {
