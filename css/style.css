@@ -345,27 +345,23 @@ img {
 }
 
 #info {
-  position: relative;
-  height: 500px;
-  background-color: #ffffff;
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  margin-top: 90px;
 }
 
-
-.section-title2 {
+#company {
   color: #ffffff;
-  font-size: 30px;
-  left: 250px;
-  top: 50px;
-  position: absolute;
-  z-index: 2;
+  background: url(../company.jpeg);
+  width: 500px;
+  text-align: center;
 }
 
-.companytext {
-  position: absolute;
-  color: #f2f2f2;
-  top: 150px;
-  left: 290px;
-  z-index: 2;
+.ctext {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 .img3 {
@@ -377,30 +373,17 @@ img {
   z-index: 1;
 }
 
-
-
-.recruitcontent {
-  position: relative;
+#recruit {
+  color: #ffffff;
+  background: url(../recruit.jpg);
+  width: 500px;
   text-align: center;
 }
 
-.section-title3 {
-  position: absolute;
+.rtext {
   font-size: 30px;
-  color: #f2f2f2;
-  z-index: 2;
-  left: 950px;
-  top: 50px;
-}
-
-
-
-.recruittext {
-  position: absolute;
-  top: 150px;
-  left: 970px;
-  color: #f2f2f2;
-  z-index: 2;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 .img4 {
@@ -418,14 +401,14 @@ img {
   background-color: #000;
   height: 70px;
   width: 80%;
-  top: -30px;
+  top: 50px;
   left: 120px;
 }
 
 .section-title4 {
   position: relative;
   font-size: 30px;
-  top: 30px;
+  top: 25px;
 }
 
 .faqtext {
@@ -480,8 +463,7 @@ img {
   z-index: 3;
   border: 2px rgb(255, 255, 255) solid;
   top: 150px;
-  margin: 0 auto;
-  text-align: center;
+  padding: 10px 20px;
 }
 
 .footer {
